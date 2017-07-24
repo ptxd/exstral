@@ -262,9 +262,13 @@
 
 .simg{
     width:100%;
-    height:40em;
+    height:100vh;
     background: url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg') center center / cover no-repeat;
     z-index:1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*The scroll button*/
@@ -347,15 +351,20 @@ section h1 {
     display:inline-block;
     width:100%;
     height:40em;
-    background:rgba(255, 255, 255, 0.15);
+    background-image:url('http://cdn.wallpapersafari.com/9/6/I1sm9V.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sbody-1{
+    padding-top:1em;
     text-align: center;
-    font-family:'Signika', sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing:2px;
-    color:#444444;
+    color:#474545;
 }
 
 .aos-imgtxt-wrapper{
@@ -369,6 +378,7 @@ section h1 {
       float:left;
       height:8em;
       width:60%;
+      border-radius: 25px;
 }
 
 .aos-imgtxt-txt{
@@ -385,7 +395,7 @@ section h1 {
     font-size:24px;
     font-weight: 800;
     font-style: normal;
-    color:#444444;
+    color:#474545;
     line-height:31px;
 }
 .aos-imgtxt-p1{
@@ -394,16 +404,15 @@ section h1 {
     text-align: justify;
     font-family: 'Signika', Verdana, sans-serif;
     font-size:16px;
-    // font-weight: 800;
     font-style: normal;
-    color:#444444;
+    color:#474545;
     line-height:20px;
 }
 
 .sbody-2{
     width:100%;
     height:60em;
-    background: url('../images/datacenter.jpg');
+    background: url('http://cdn.wallpapersafari.com/40/49/hb8GKq.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -420,7 +429,20 @@ section h1 {
 .wd-wrapper{
     width:30em;
     height:30em;
-    background:rgba(255, 255, 255, 0.75);
+    background:rgba(255, 255, 255, 0.9);
     display: inline-block;
     border-radius: 25px;
+}
+
+.wd-cont-gen{
+    margin-top:4.5em;
+}
+
+.wd-cont-gen>p{
+    text-align: center;
+    color:	#808080;
+}
+
+.wd-cont-gen>p>h1{
+    color:black;
 }
