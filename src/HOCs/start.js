@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import HamburgerMenu from '../components/menubar/hamburger_menu';
 import ScrollDown from '../components/button/scroll_button';
 import ImageText from '../components/aos/image_text';
-import WhiteDiv from '../components/opaque_divs/white_div';
+import {WhiteDivGeneral,WhiteDivChart,WhiteDivPie} from '../components/opaque_divs/white_div';
+
 
 var title = {
             title1:'Providing unparallel oversight of the ICO industry and its technologies',
@@ -90,10 +91,11 @@ class Start extends Component {
                     />
                 </div>
                 <div className="sbody-2">
-                    <WhiteDiv/>
-                    <WhiteDiv/>
-                    <WhiteDiv/>
+                    <WhiteDivGeneral/>
+                    <WhiteDivPie/>
+                    <WhiteDivChart/>
                 </div>
+                
             </div>
         );
     }
