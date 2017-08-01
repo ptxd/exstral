@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import HamburgerMenu from '../components/menubar/hamburger_menu';
-import ScrollDown from '../components/button/scroll_button';
 import ImageText from '../components/aos/image_text';
 import {WhiteDivGeneral,WhiteDivChart,WhiteDivPie} from '../components/opaque_divs/white_div';
 
@@ -38,9 +37,6 @@ class Start extends Component {
                 <header>
                     <HamburgerMenu/>
                 </header>
-                <div className="simg">
-                    <ScrollDown/>
-                </div>
                 <div className="sbody-1">
                     <p>FEATURES</p>
                     <ImageText 
@@ -57,6 +53,7 @@ class Start extends Component {
                         data_aos_duration2={aos.data_aos_duration[0]}
                         data_aos_offset2={aos.data_aos_offset}
                     />
+                    <br/>
                     <ImageText 
                         imageSource={'http://cdn.wallpapersafari.com/74/65/86wOua.jpg'} 
                         title={title.title2}
@@ -69,6 +66,7 @@ class Start extends Component {
                         data_aos_easing2={aos.data_aos_easing}
                         data_aos_duration2={aos.data_aos_duration[1]}
                     />
+                    <br/>
                     <ImageText 
                         imageSource={'http://cdn.wallpapersafari.com/93/73/TRD5mx.jpg'} 
                         title={title.title3}
@@ -79,6 +77,7 @@ class Start extends Component {
                         data_aos2={aos.data_aos[3]}
                         data_aos_duration2={aos.data_aos_duration[2]}
                     />
+                    <br/>
                     <ImageText 
                         imageSource={'http://cdn.wallpapersafari.com/78/65/B7YruM.jpg'} 
                         title={title.title4}
