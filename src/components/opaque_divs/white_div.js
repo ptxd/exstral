@@ -20,7 +20,8 @@ export const WhiteDivGeneral = () => {
 export const WhiteDivPie = () => {
     return (
         <div className="wd-wrapper">
-            <MarketDom/>
+            <p className="wdp-title"><h4>CRYPTOCURRENCY <br/>MARKET SHARE</h4></p>
+
         </div>
     );
 };
@@ -31,3 +32,5 @@ export const WhiteDivChart = () => {
         </div>
     );
 };
+
+            // <MarketDom/>
