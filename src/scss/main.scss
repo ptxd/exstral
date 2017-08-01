@@ -18,7 +18,7 @@
 
 @media only screen and (min-width:1500px){
     .hbg-img{
-        height:100vh;
+        height:60em;
         width:100%; 
     }
     .banner-btn{
@@ -110,6 +110,8 @@
     background-image: url('https://unsplash.it/1800/800?image=893');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     position:relative;
     z-index:1;
     overflow: auto;
@@ -174,6 +176,17 @@
     letter-spacing: 0.25em;
 }
 
+.htitle>p{
+    margin-top:0;
+    padding-left:10em;
+    width:100%;
+	font-size:50px !important;
+	font-family: 'Cutive Mono', monospace !important;
+	color:white !important;
+    z-index:30;
+    letter-spacing: 0.25em;
+}
+
 .tracking-in-expand {
     margin:0 !important;
     width:40%;
@@ -210,13 +223,27 @@
   }
 }
 
+.hbg-img>section{
+    height:6em;
+    width:40%;
+    margin-left:34em;
+}
+
          /*Home View banner button*/
+
+.hbtn{
+    margin-top:8em;
+    height:5em;
+    width:100%;
+    text-align: center;
+}
 
 .banner-btn{
     z-index:3;
     position: relative;
     background: transparent;
     border: 1px solid #fff;
+    margin:0;
 }
 
 .banner-btn:hover{
@@ -258,17 +285,6 @@
     position:fixed;
     z-index:20;
     background:black;
-}
-
-.simg{
-    width:100%;
-    height:100vh;
-    background: url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg') center center / cover no-repeat;
-    z-index:1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /*The scroll button*/
@@ -350,8 +366,8 @@ section h1 {
 .sbody-1{
     display:inline-block;
     width:100%;
-    height:40em;
-    background-image:url('http://cdn.wallpapersafari.com/9/6/I1sm9V.jpg');
+    height:45em;
+    background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -364,14 +380,18 @@ section h1 {
     font-family:'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing:2px;
-    color:#474545;
+    color:white;
 }
 
 .aos-imgtxt-wrapper{
     margin-left:8em;
+    border-radius:25px;
+    padding-top:0.5em;
+    padding-left:0.5em;
     width:60%;
     height:9em;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .aos-imgtxt-img{
@@ -391,7 +411,7 @@ section h1 {
     margin-top:1.5em;
     padding: 0em 1.6em;
     text-align: justify;
-    font-family: 'Signika', Verdana, sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     font-size:24px;
     font-weight: 800;
     font-style: normal;
@@ -402,7 +422,7 @@ section h1 {
     margin-top:0.5em;
     padding: 0em 2.4em;
     text-align: justify;
-    font-family: 'Signika', Verdana, sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     font-size:16px;
     font-style: normal;
     color:#474545;
@@ -434,6 +454,17 @@ section h1 {
     border-radius: 25px;
 }
 
+.wd-wrapper .recharts-wrapper{
+    margin-top:-5em;
+    padding-left:2em;
+}
+
+.wdp-title{
+    margin-top:4.5em;
+    text-align: center;
+    color:	#808080;
+}
+
 .wd-cont-gen{
     margin-top:4.5em;
 }
@@ -446,3 +477,4 @@ section h1 {
 .wd-cont-gen>p>h1{
     color:black;
 }
+
