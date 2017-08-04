@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class HomeButton extends Component {
-    render() {
+function HomeButton(props) {
         return (
             <div>
                 <button className="banner-btn">
-                        <span>SIGNUP</span>
+                        <span>{props.hbutton}</span>
                 </button>
             </div>
         );
     }
-}
 
 export default HomeButton;

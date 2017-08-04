@@ -1,6 +1,4 @@
 import React from 'react';
-import MarketDom from '../pie_chart/marketdom_pie';
-
 
 export const WhiteDivGeneral = () => {
     return (

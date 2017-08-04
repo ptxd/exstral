@@ -11,7 +11,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 @import url('https://fonts.googleapis.com/css?family=Signika');
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 
 
 /*Start of Home View*/
@@ -28,7 +29,6 @@
     }
     .exstral{
         margin-top:25rem;
-        margin-left:40%;
     }
 }
 
@@ -168,6 +168,8 @@
 }
 
 .exstral>p{
+    width:100%;
+    text-align: center;
 	margin-top:15rem;
 	font-size:80px !important;
 	font-family: 'Cutive Mono', monospace !important;
@@ -178,10 +180,10 @@
 
 .htitle>p{
     margin-top:0;
-    padding-left:10em;
     width:100%;
-	font-size:50px !important;
-	font-family: 'Cutive Mono', monospace !important;
+    text-align: center;
+	font-size:80px !important;
+	font-family: 'Tangerine', cursive,'Cutive Mono',monospace;
 	color:white !important;
     z-index:30;
     letter-spacing: 0.25em;
@@ -232,7 +234,7 @@
          /*Home View banner button*/
 
 .hbtn{
-    margin-top:8em;
+    margin-top:6em;
     height:5em;
     width:100%;
     text-align: center;
@@ -269,22 +271,6 @@
     font-family: Open Sans;
     line-height: 350%;
     text-align: center;
-}
-
-/*Start Page*/
-
-.sbg-div{
-    width:100%;
-    height:100em;
-}
-
-.sbg-div>header{
-    width:100%;
-    height:4.5em;
-    background:none;
-    position:fixed;
-    z-index:20;
-    background:black;
 }
 
 /*The scroll button*/
@@ -363,24 +349,28 @@ section h1 {
   }
 }
 
-.sbody-1{
+
+/*Start Page*/
+
+.hiwbody-1{
     display:inline-block;
     width:100%;
-    height:45em;
-    background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
+    height:25em;
+    // background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
+    background:#f3f0e7;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sbody-1{
+.hiwbody-1>p{
     padding-top:1em;
     text-align: center;
     font-family:'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing:2px;
-    color:white;
+    color:black;
 }
 
 .aos-imgtxt-wrapper{
@@ -444,37 +434,5 @@ section h1 {
 	align-items: center;
 	align-content: stretch;
     
-}
-
-.wd-wrapper{
-    width:30em;
-    height:30em;
-    background:rgba(255, 255, 255, 0.9);
-    display: inline-block;
-    border-radius: 25px;
-}
-
-.wd-wrapper .recharts-wrapper{
-    margin-top:-5em;
-    padding-left:2em;
-}
-
-.wdp-title{
-    margin-top:4.5em;
-    text-align: center;
-    color:	#808080;
-}
-
-.wd-cont-gen{
-    margin-top:4.5em;
-}
-
-.wd-cont-gen>p{
-    text-align: center;
-    color:	#808080;
-}
-
-.wd-cont-gen>p>h1{
-    color:black;
 }
 
