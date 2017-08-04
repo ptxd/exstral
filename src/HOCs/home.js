@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomeButton from '../components/button/home_button';
 import HamburgerMenu from '../components/menubar/hamburger_menu';
-import Start from './start';
+import HowItWorks from './hiw';
 import ScrollDown from '../components/button/scroll_button';
 
 class Home extends Component {
@@ -19,15 +19,15 @@ class Home extends Component {
                     </div>
                     <div className="htitle">  
                         <p className=" tracking-in-expand">
-                            CRYPTOCURRENCY RESEARCH 
+                            <i>The Guild Of Finluc</i>
                         </p>
                     </div> 
                     <div className="hbtn">
-                        <HomeButton/>
+                        <HomeButton hbutton="Learn More"/>
                     </div>
                     <ScrollDown/>
                 </div>
-                <Start/>
+                <HowItWorks/>
             </div>
         );
     }
