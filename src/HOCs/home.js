@@ -17,11 +17,6 @@ class Home extends Component {
                             EXSTRAL
                         </p>
                     </div>
-                    <div className="htitle">  
-                        <p className=" tracking-in-expand">
-                            <i>The Guild Of Finluc</i>
-                        </p>
-                    </div> 
                     <div className="hbtn">
                         <HomeButton hbutton="Learn More"/>
                     </div>

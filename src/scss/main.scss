@@ -234,7 +234,7 @@
          /*Home View banner button*/
 
 .hbtn{
-    margin-top:6em;
+    margin-top:12em;
     height:5em;
     width:100%;
     text-align: center;
@@ -352,10 +352,10 @@ section h1 {
 
 /*Start Page*/
 
-.hiwbody-1{
+.hiwbody{
     display:inline-block;
     width:100%;
-    height:25em;
+    height:35em;
     // background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
     background:#f3f0e7;
     background-attachment: fixed;
@@ -364,7 +364,7 @@ section h1 {
     background-size: cover;
 }
 
-.hiwbody-1>p{
+.hiwbody>p{
     padding-top:1em;
     text-align: center;
     font-family:'Josefin Sans', sans-serif;
@@ -373,66 +373,40 @@ section h1 {
     color:black;
 }
 
-.aos-imgtxt-wrapper{
-    margin-left:8em;
-    border-radius:25px;
-    padding-top:0.5em;
-    padding-left:0.5em;
-    width:60%;
-    height:9em;
-    box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.9);
-}
-
-.aos-imgtxt-img{
-      float:left;
-      height:8em;
-      width:60%;
-      border-radius: 25px;
-}
-
-.aos-imgtxt-txt{
-    width:40%;
-    height:8em;
-    float:right;
-}
-
-.aos-imgtxt-title{
-    margin-top:1.5em;
-    padding: 0em 1.6em;
-    text-align: justify;
-    font-family:'Josefin Sans', sans-serif;
-    font-size:24px;
-    font-weight: 800;
-    font-style: normal;
-    color:#474545;
-    line-height:31px;
-}
-.aos-imgtxt-p1{
-    margin-top:0.5em;
-    padding: 0em 2.4em;
-    text-align: justify;
-    font-family:'Josefin Sans', sans-serif;
-    font-size:16px;
-    font-style: normal;
-    color:#474545;
-    line-height:20px;
-}
-
-.sbody-2{
-    width:100%;
-    height:60em;
-    background: url('http://cdn.wallpapersafari.com/40/49/hb8GKq.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hiw-item{
+    margin-top:0;
+    margin-right:auto;
+    margin-left:auto;
+    width:70%;
+    height:25em;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+    align-content: stretch;
     
 }
 
+.card{
+    margin:0;
+    width:318px;
+    height:20em;
+    background:transparent !important;
+    border:none !important;
+}
+
+.card-img-top{
+    width:inherit;
+    height:8em !important;
+}
+
+.card-title,.card-subtitle{
+    text-align: center;
+}
+
+.card-text{
+    margin-top:1em;
+    text-align: justify;
+    word-wrap: break-word;
+}
