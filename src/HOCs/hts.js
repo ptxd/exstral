@@ -7,7 +7,13 @@ var imt=[
         title:'Regulation has been left in the dust and ambiguity is stifling innovation.',
         text1:'In the US, the IRS classifies cryptocurrencies as property and taxes it as such. IRS Notice 2014-21 states that US federal tax laws do not recognize virtual currencies as currency but rather as capital asset where gains and losses are taxable.',
         text2:'The SEC release 2017-131 states that an investment transaction involves the offer or sale of a security  - regardless of terminology or technology used  - will depend on the facts and circumstances, including the economic realities of the transaction. '
-    }
+    },
+    {
+        imageSource:'https://cdn3.computerworlduk.com/cmsdata/features/3640764/blockchain_thumb800.jpg',
+        title:'As cryptocurrencies gain market acceptance, the scalability of these currencies are brought into question.',
+        text1:'The split of bitcoin was caused due to the pressing issue of scalability of the network to support greater number or transactions, faster. ',
+        text2:'As the number of transactions increase, so does it associated fees while the speed at which the transaction is processed decreases.'
+    },
 ]
 
 
@@ -19,22 +25,45 @@ class Hts extends Component {
                 <p className="hts-p2">Although cryptocurrencies are gaining more acceptance , the volatility of the currencies are limiting its potential to be just a tool for speculation. </p>
                 <p className="hts-p3">Even if some of the more popular crytocurrencies are gaining traction in terms of merchant acceptance, the fluctuations in prices can be potentially devastating to their balance sheets. Risks related to forex fluctuations are often more manageable hence mainstream currencies (eg. US Dollar) are often the prefered medium of exchange.</p>
                 <div className="hts-div1">
-                    <ImageText 
+                    <ImageText
+                        data_aos="fade-right"
+                        data_aos_offset="300"
+                        data_aos_easing="linear"
+                        data_aos_duration="1250"
+                        data_aos2="fade-left"
+                        data_aos_offset2="300"
+                        data_aos_easing2="linear"
+                        data_aos_duration2="1250" 
                         imageSource={imt[0].imageSource}
                         title={imt[0].title}
                         text1={imt[0].text1}
                         text2={imt[0].text2}
                     />
                 </div>
-                    <br/>
-                    <div className="hts-div2">
-                        <h1>The blockhain technology is the gateway to the future of finance</h1>
+                <br/>
+                <div className="hts-div2">
+                    <h1>The blockhain technology is the gateway to the future of finance</h1>
+                </div>
+                <div className="hts-wrapperdiv3">
+                    <div className="hts-div3">
+                    <ImageText
+                        data_aos="fade-down"
+                        data_aos_offset="300"
+                        data_aos_easing="linear"
+                        data_aos_duration="1250"
+                        data_aos2="fade-down"
+                        data_aos_offset2="300"
+                        data_aos_easing2="linear"
+                        data_aos_duration2="1250" 
+                        imageSource={imt[1].imageSource}
+                        title={imt[1].title}
+                        text1={imt[1].text1}
+                        text2={imt[1].text2}
+                    />
                     </div>
-                    <br/>
-                    <div className="hts-div3"></div>
-                    <div className="hts-div4">
-                        <ImageText/>
-                    </div>
+                </div>
+                <br/>
+                <br/>
             </div>
         );
     }

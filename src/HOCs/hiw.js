@@ -11,7 +11,7 @@ class HowItWorks extends Component {
     var hiw = [  
         {title:'Technology',subtitle:'Cryptocurrencies & Blockchain',text:'Using the latest in financial technology including the blockchain and ethereum\'s smart contract to create a high-tech ecosystem.'},
         {title:'Collaboration',subtitle:'Community Engagement',text:'Support, understanding and acceptance of new financial technologies will drive further collaboration within the community.'},
-        {title:'Hubspot',subtitle:'Physical & Digital Access',text:'Allowing transactions to happen physically & digitally will increase utilization and generate mainstream acceptance.'}
+        {title:'Hubs',subtitle:'Physical & Digital Access',text:'Allowing transactions to happen physically & digitally will increase utilization and generate mainstream acceptance.'}
     ]
         return (
                 <div className="hiwbody">
