@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HomeButton from '../components/button/home_button';
 import HamburgerMenu from '../components/menubar/hamburger_menu';
 import HowItWorks from './hiw';
+import Hts from './hts';
 import ScrollDown from '../components/button/scroll_button';
 
 class Home extends Component {
@@ -23,6 +24,7 @@ class Home extends Component {
                     <ScrollDown/>
                 </div>
                 <HowItWorks/>
+                <Hts/>
             </div>
         );
     }

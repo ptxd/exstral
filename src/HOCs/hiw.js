@@ -9,9 +9,9 @@ import imageStore from '../images/store.svg';
 class HowItWorks extends Component {
     render() {
     var hiw = [  
-        {title:'Technology',subtitle:'Crytocurrencies & Blockchain',text:'Using the latest in financial technology including the blockchain and ethereum\'s smart contract to create a high-tech ecosystem.'},
+        {title:'Technology',subtitle:'Cryptocurrencies & Blockchain',text:'Using the latest in financial technology including the blockchain and ethereum\'s smart contract to create a high-tech ecosystem.'},
         {title:'Collaboration',subtitle:'Community Engagement',text:'Support, understanding and acceptance of new financial technologies will drive further collaboration within the community.'},
-        {title:'Access',subtitle:'Physical & Digital Access',text:'By allowing people to transact both physically & digitally, there will be an increase in utilization and more acceptance of cryptocurrency as a mainstream medium for performing transactions.'}
+        {title:'Hubs',subtitle:'Physical & Digital Access',text:'Allowing transactions to happen physically & digitally will increase utilization and generate mainstream acceptance.'}
     ]
         return (
                 <div className="hiwbody">
