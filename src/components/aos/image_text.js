@@ -28,16 +28,18 @@ class ImageText extends Component {
                                 data-aos-easing={this.props.data_aos_easing2}
                                 data-aos-duration={this.props.data_aos_duration2}
                     >
-                        <p className="aos-imgtxt-title">  
+                        <p className="aos-imgtxt-title">
+                            <strong>  
                                 {this.props.title}
+                            </strong>
                         </p>
                         <p className="aos-imgtxt-p1">
                                 {this.props.text1}
                         <br/>
                         <br/>
-                        <strong>
+
                                {this.props.text2}
-                        </strong>
+
                         </p>
                     </div>    
                 </div>    

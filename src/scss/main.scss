@@ -367,7 +367,7 @@ section h1 {
 .hiwbody>p{
     padding-top:1em;
     text-align: center;
-    font-family:'Josefin Sans', sans-serif;
+    font-family:Tahoma,'Josefin Sans', sans-serif;
     font-size: 3em;
     letter-spacing:2px;
     color:black;
@@ -397,8 +397,8 @@ section h1 {
 }
 
 .card-img-top{
-    width:inherit;
-    height:8em !important;
+    width:318px !important;
+    height:119px !important;
 }
 
 .card-title,.card-subtitle{
@@ -409,4 +409,121 @@ section h1 {
     margin-top:1em;
     text-align: justify;
     word-wrap: break-word;
+}
+
+// Here's the Situation Section
+
+.hts-body{
+    width:100%;
+    height:100vh;
+}
+
+.hts-p1{
+    padding-top:1em;
+    text-align: center;
+    font-family:Tahoma,'Josefin Sans', sans-serif;
+    font-size: 3em;
+    letter-spacing:2px;
+    color:black;
+}
+
+.hts-p2{
+    margin:0 auto;
+    font-family: Tahoma, 'Segoe', sans-serif;
+    font-weight:800;
+    font-style: normal;
+    font-size:24px;
+    line-height: 31px;
+    color:#444444;
+    text-align: left;
+    width:60%;
+}
+
+.hts-p3{
+    margin:0 auto;
+    padding-top: 1em;
+    font-family: Tahoma, 'Segoe', sans-serif;
+    font-weight:300;
+    font-style: normal;
+    font-size:17px;
+    line-height: 26px;
+    color:#444444;
+    text-align: left;
+    width:60%;
+}
+
+.hts-div1{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    padding-top:6em;
+}
+
+.aos-imgtxt-wrapper{
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.aos-imgtxt-txt{
+    margin-left:8em;
+}
+
+.aos-imgtxt-title{
+    font-family: Tahoma, 'Segoe', sans-serif;
+    font-weight:800;
+    font-style: normal;
+    font-size:17px;
+    line-height: 26px;
+    color:#444444;
+    text-align: justify;
+}
+
+.aos-imgtxt-p1{
+    font-family: Tahoma, 'Segoe', sans-serif;
+    font-weight:300;
+    font-style: normal;
+    // font-size:12px;
+    // line-height: 26px;
+    color:#444444;
+    text-align: justify;
+}
+
+.hts-div2{
+    display:inline-block;
+    width:100%;
+    height:25rem;
+    background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hts-div2>h1{
+    padding-top:10%;
+    z-index: 2;
+    color: #fff;
+    font-family :Tahoma, sans-serif;
+    font-size:24px;
+    font-weight:800;
+    line-height: 31px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.hts-div3{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    padding-top:6em;
+    height:30em;
 }
