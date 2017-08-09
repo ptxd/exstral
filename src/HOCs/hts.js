@@ -29,16 +29,19 @@ class Hts extends Component {
                             title={z[0].title}
                             style={{borderBottom:'1px solid #ff9523'}}
                             text={z[0].text}
+                            duration="1000"
                         />
                         <AOSTCard
                             title={z[1].title}
                             style={{borderBottom:'1px solid #20c05c'}}
                             text={z[0].text}
+                            duration="1500"
                         />
                         <AOSTCard
                             title={z[2].title}
                             style={{borderBottom:'1px solid #6e49ff'}}
                             text={z[0].text}
+                            duration="2000"
                         />
                     </div>
                     <div className="hts-qt1">

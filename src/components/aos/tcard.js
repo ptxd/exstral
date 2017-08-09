@@ -15,7 +15,11 @@ class AOSTCard extends Component {
 
     render() {
         return (
-                <div className="tcard-wrapper">
+                <div className="tcard-wrapper" 
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration={this.props.duration}
+                >
                      <div className="classrect">
                         <div className="tcard-header" style={this.props.style}>
                             <p className="tcard-title">{this.props.title}</p>
