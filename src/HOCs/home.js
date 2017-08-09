@@ -23,11 +23,15 @@ class Home extends Component {
                     </div>
                     <ScrollDown/>
                 </div>
-                <HowItWorks/>
-                <Hts/>
+                <div className="body-img">
+                    <Hts/>
+                    <HowItWorks/>
+                </div>
             </div>
         );
     }
 }
 
 export default Home;
+
+
