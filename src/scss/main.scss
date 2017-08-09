@@ -13,6 +13,18 @@
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC');
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+//variables go here
+$t-color:rgba(37,37,37, 1.0);
+// $hiwb-color:rgba(255,255,255, 1.0);
+$hiwbg-color:rgba(11,172,139, 0.75);
+$hiwb-color:#eedfdc;
+$color-white:white;
+$color-orange:#EF590A;
+$bg-cover: rgba(60, 59, 58, 0.75); 
+
 
 
 /*Start of Home View*/
@@ -352,22 +364,145 @@ section h1 {
 
 /*Start Page*/
 
-.hiwbody{
-    display:inline-block;
-    width:100%;
-    height:60vh;
-    // background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
-    background:#f3f0e7;
+.body-img{
+    background:url('../images/black-background_00313351.jpg');
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    width:100%;
+    height:100vh;
 }
+
+
+// Here's the Situation Section
+
+.hts-body{
+    width:100%;
+    height:60em;
+}
+
+.hts-p1{
+    padding-top:1em;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 3em;
+    letter-spacing:0.25em;
+    color:white;
+}
+
+
+.hts-div1{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    padding-top:4em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.tcard-wrapper {
+    .classrect {
+        width:15em;
+        height:20em;
+        background: $bg-cover;
+        margin:0 auto;
+    }
+
+    .classtri {
+        margin:0 auto;
+        width: 0;
+        height: 0;
+        border-top: 7.5em solid $bg-cover;
+        border-left: 7.5em solid transparent;
+        border-right: 7.5em solid transparent;
+    }
+    .tcard-header {
+    width:inherit;
+    height: 3em;
+    background:  #252830;
+    .tcard-title {
+        text-align: center;
+        padding-top:2.5%;
+        letter-spacing: 0.25em;
+        color:white;
+        font-size: 15px;
+        font-family: 'Cormorant', serif;
+        }
+    }
+    .tcard-text{
+        font-family: Tahoma, 'Segoe', sans-serif;
+        font-weight:400;
+        font-style: normal;
+        font-size:17px;
+        line-height: 26px;
+        color:$color-white;
+        text-align: justify;
+        padding: 1.0em 1em;
+    }
+}
+
+
+
+
+.hts-qt1{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    height:20vh;
+    padding:3.5% 0;
+    p{
+        font-family: Tahoma, 'Segoe', sans-serif;
+        font-weight:800;
+        font-style: normal;
+        font-size:17px;
+        line-height: 26px;
+        color:$color-white;
+        text-align: left;
+    }
+}
+
+// .technical-wrapper{
+//     display: inline-block;
+//     margin-left:5rem;
+//     width:50rem;
+//     height:40rem;
+//     /*background:  #252830;*/
+//     /*background-color:rgba(52,55,56,1.0);*/
+//       background: repeating-linear-gradient(
+// 		45deg,
+// 		rgba(37, 40, 48, 0.3),
+// 		rgba(60, 59, 58, 0.5) 0.5px,
+// 		rgba(60, 59, 58, 0.5) 0.5px,
+// 		rgba(60, 59, 58, 0.5) 0.5px
+// 		);
+//     box-shadow: 0 2px 20px #000;
+//     margin-top:5rem;
+// }
+
+
+
+//How It Works Section
+
+// .hiwbody{
+//     display:inline-block;
+//     width:100%;
+//     height:60vh;
+//     background:url('../images/black-background_00313351.jpg');
+// }
 
 .hiwbody>p{
     padding-top:1em;
     text-align: center;
-    font-family:Tahoma,'Josefin Sans', sans-serif;
+    font-family:'Lato', sans-serif;
     font-size: 3em;
     letter-spacing:2px;
     color:black;
@@ -411,199 +546,119 @@ section h1 {
     word-wrap: break-word;
 }
 
-// Here's the Situation Section
+// .hts-p2{
+//     margin:0 auto;
+//     padding-top:2em;
+//     font-family: Tahoma, 'Segoe', sans-serif;
+//     font-weight:800;
+//     font-style: normal;
+//     font-size:24px;
+//     line-height: 31px;
+//     color:#444444;
+//     text-align: center;
+//     width:60%;
+// }
 
-.hts-body{
-    width:100%;
-    height:100vh;
-}
-
-.hts-p1{
-    padding-top:1em;
-    text-align: center;
-    font-family:Tahoma,'Josefin Sans', sans-serif;
-    font-size: 3em;
-    letter-spacing:2px;
-    color:black;
-}
-
-.hts-p2{
-    margin:0 auto;
-    font-family: Tahoma, 'Segoe', sans-serif;
-    font-weight:800;
-    font-style: normal;
-    font-size:24px;
-    line-height: 31px;
-    color:#444444;
-    text-align: center;
-    width:60%;
-}
-
-.hts-p3{
-    margin:0 auto;
-    padding-top: 1em;
-    font-family: Tahoma, 'Segoe', sans-serif;
-    font-weight:300;
-    font-style: normal;
-    font-size:17px;
-    line-height: 26px;
-    color:#444444;
-    text-align: left;
-    width:60%;
-}
-
-.hts-div1{
-    margin-top:0;
-    margin-bottom:0;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-    padding-top:4em;
-}
-
-.hts-qt1{
-    margin-top:0;
-    margin-bottom:0;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-    height:20vh;
-    padding:3.5% 0;
-    p{
-        font-family: Tahoma, 'Segoe', sans-serif;
-        font-weight:800;
-        font-style: normal;
-        font-size:17px;
-        line-height: 26px;
-        color:#444444;
-        text-align: left;
-    }
-}
-
-.aos-imgtxt-wrapper{
-    width: 100%;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
-}
-
-.aos-imgtxt-wrapper>img{
-    width:700px;
-    height:450px;
-}
-
-.aos-imgtxt-txt{
-    margin-left:8em;
-}
-
-.aos-imgtxt-title{
-    font-family: Tahoma, 'Segoe', sans-serif;
-    font-weight:800;
-    font-style: normal;
-    font-size:17px;
-    line-height: 26px;
-    color:#444444;
-    text-align: justify;
-}
-
-.aos-imgtxt-p1{
-    font-family: Tahoma, 'Segoe', sans-serif;
-    font-weight:300;
-    font-style: normal;
-    // font-size:12px;
-    // line-height: 26px;
-    color:#444444;
-    text-align: justify;
-}
-
-.hts-div2{
-    display:inline-block;
-    width:100%;
-    height:15rem;
-    background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hts-div2>h1{
-    padding-top:6%;
-    z-index: 2;
-    color: #fff;
-    font-family :Tahoma, sans-serif;
-    font-size:24px;
-    font-weight:800;
-    line-height: 31px;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.hts-wrapperdiv3{
-    width:100%;
-    height:45em;
-    // background:#FFDAB9;
-}
-
-.hts-div3{
-    margin-top:0;
-    margin-bottom:0;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-    padding-top:6em;
-    img{
-        width:100%;
-        height:25em;
-    }
-    p{
-        font-family: Tahoma, 'Segoe', sans-serif;
-        font-weight:800;
-        font-style: normal;
-        font-size:17px;
-        line-height: 26px;
-        color:#444444;
-        text-align: center;
-    }
-    .aostxt-p1{
-        font-family: Tahoma, 'Segoe', sans-serif;
-        font-weight:400;
-        font-style: normal;
-        font-size:17px;
-        line-height: 26px;
-        color:#444444;
-        text-align: justify;
-    }
-}
+// .hts-p3{
+//     margin:0 auto;
+//     padding-top: 1em;
+//     font-family: Tahoma, 'Segoe', sans-serif;
+//     font-weight:300;
+//     font-style: normal;
+//     font-size:17px;
+//     line-height: 26px;
+//     color:#444444;
+//     text-align: center;
+//     width:60%;
+// }
 
 
-.hts-div4{
-    display:inline-block;
-    width:100%;
-    height:15rem;
-    background:url('https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg');
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// .hts-div2{
+//     display:inline-block;
+//     width:100%;
+//     height:15rem;
+//     background:url('https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg');
+//     background-attachment: fixed;
+//     background-position: 50% 50%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
-.hts-div4>h1{
-    padding-top:6%;
-    z-index: 2;
-    color: #fff;
-    font-family :Tahoma, sans-serif;
-    font-size:24px;
-    font-weight:800;
-    line-height: 31px;
-    text-align: center;
-    white-space: nowrap;
-}
+// .hts-div2>h1{
+//     padding-top:6%;
+//     z-index: 2;
+//     color: #fff;
+//     font-family :Tahoma, sans-serif;
+//     font-size:24px;
+//     font-weight:800;
+//     line-height: 31px;
+//     text-align: center;
+//     white-space: nowrap;
+// }
 
-.hts-wrapperdiv5{
-    width:100%;
-    height:40em;
-}
+// .hts-wrapperdiv3{
+//     width:100%;
+//     height:45em;
+//     // background:#FFDAB9;
+// }
+
+// .hts-div3{
+//     margin-top:0;
+//     margin-bottom:0;
+//     margin-left:auto;
+//     margin-right:auto;
+//     width:60%;
+//     padding-top:6em;
+//     img{
+//         width:100%;
+//         height:25em;
+//     }
+//     p{
+        // font-family: Tahoma, 'Segoe', sans-serif;
+        // font-weight:800;
+        // font-style: normal;
+        // font-size:17px;
+        // line-height: 26px;
+        // color:#444444;
+        // text-align: center;
+//     }
+//     .aostxt-p1{
+//         font-family: Tahoma, 'Segoe', sans-serif;
+//         font-weight:400;
+//         font-style: normal;
+//         font-size:17px;
+//         line-height: 26px;
+//         color:#444444;
+//         text-align: justify;
+//     }
+// }
+
+
+// .hts-div4{
+//     display:inline-block;
+//     width:100%;
+//     height:15rem;
+//     background:url('https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg');
+//     background-attachment: fixed;
+//     background-position: 50% 50%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+// .hts-div4>h1{
+//     padding-top:6%;
+//     z-index: 2;
+//     color: #fff;
+//     font-family :Tahoma, sans-serif;
+//     font-size:24px;
+//     font-weight:800;
+//     line-height: 31px;
+//     text-align: center;
+//     white-space: nowrap;
+// }
+
+// .hts-wrapperdiv5{
+//     width:100%;
+//     height:40em;
+// }
+

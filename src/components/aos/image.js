@@ -21,7 +21,7 @@ class AOSImage extends Component {
                             data-aos-offset={this.props.data_aos_offset}
                             data-aos-easing={this.props.data_aos_easing}
                             data-aos-duration={this.props.data_aos_duration}
-                            />   
+                    />   
                 </div>    
         );
     }
