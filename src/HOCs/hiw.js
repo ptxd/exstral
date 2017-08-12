@@ -15,7 +15,7 @@ class HowItWorks extends Component {
     ]
         return (
                 <div className="hiwbody">
-                    <p>WHAT WE SET OUT TO ACHIEVE</p>
+                    <p>WHAT WE WANT TO ACHIEVE</p>
                     <div className="hiw-item">
                         <HiwCard 
                             image={imageEth} 
