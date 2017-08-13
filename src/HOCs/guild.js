@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import HiwCard from '../components/cards/hiw_card';
 import laurel from '../images/laurel-48095_640.png';
+import CountdownTimer from '../components/timer/countdowntimer';
 
 var htp = [  
         {title:'',subtitle:'',text:'Be part of a community leading the development of cryptocurrencies into mainstream commerce.'},
-        {title:'',subtitle:'',text:'Gain early access to guild benefits including no fee transfers and exciting guild benefits.'},
-        {title:'',subtitle:'',text:'Prefered voting rights and premium access to provide services to the development of the hub.'}
+        {title:'',subtitle:'',text:'Gain early access to guild benefits including premium access to exciting guild benefits.'},
+        {title:'',subtitle:'',text:'Prefered voting rights and determine the direction of the group\'s lobbying efforts.'}
     ]
 
 class Guild extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            deadline:'August 25, 2017'
+        }
+    }
     render() {
         return (
             <div className="htpbody">
@@ -30,6 +37,7 @@ class Guild extends Component {
                         text={htp[2].text}
                     />
                 </div>
+                <CountdownTimer deadline={this.state.deadline}/>
             </div>
         );
     }
