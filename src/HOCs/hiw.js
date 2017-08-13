@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HiwCard from '../components/cards/hiw_card';
 import imageEth from '../images/icons8-Ethereum.svg';
-import imageCollab from '../images/beer-jars-making-a-toast.svg';
+import imageCollab from '../images/networking.svg';
 import imageStore from '../images/store.svg';
 
 
@@ -15,7 +15,7 @@ class HowItWorks extends Component {
     ]
         return (
                 <div className="hiwbody">
-                    <p>WHAT WE SET OUT TO ACHIEVE</p>
+                    <p>WHAT WE WANT TO ACHIEVE</p>
                     <div className="hiw-item">
                         <HiwCard 
                             image={imageEth} 
